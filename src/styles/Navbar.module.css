@@ -1,0 +1,35 @@
+.navbar {
+	height: 70px;
+	padding: 24px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar ul {
+	display: flex;
+}
+
+.navbar ul li {
+	list-style: none;
+	margin-right: 92px;
+}
+
+.navbar ul li a {
+	text-decoration: none;
+}
+
+.linkActive {
+	color: #ef767a;
+	font-family: RobotoBoldItalic;
+}
+
+.linkInactive {
+	color: #000000;
+	font-family: RobotoLight;
+}
+
+.logo {
+	color: #ef767a;
+	font-family: RobotoBold;
+	font-size: 22px;
+}
