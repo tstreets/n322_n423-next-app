@@ -1,0 +1,10 @@
+.content {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.content p {
+	width: 513px;
+	font-family: LoraItalic;
+}

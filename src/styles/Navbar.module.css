@@ -33,3 +33,16 @@
 	font-family: RobotoBold;
 	font-size: 22px;
 }
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	height: 74px;
+	padding: 24px;
+	width: 100%;
+	background-color: #f8f8f8;
+}
+
+.footer li {
+	list-style: none;
+}

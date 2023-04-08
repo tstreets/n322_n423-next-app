@@ -33,3 +33,13 @@ p {
 	font-family: RobotoBoldItalic;
 	src: url('/Roboto/Roboto-BoldItalic.ttf');
 }
+
+@font-face {
+	font-family: LoraItalic;
+	src: url('/Lora/Lora-Italic.ttf');
+}
+
+.content {
+	min-height: 60%;
+	padding: 40px;
+}

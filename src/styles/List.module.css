@@ -1,0 +1,41 @@
+.list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.item {
+	display: flex;
+	justify-content: space-between;
+	min-height: 252px;
+	width: 578px;
+}
+
+.item .image {
+	height: 159px;
+	width: 159px;
+}
+
+.item .image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.item .text {
+	width: 363px;
+	padding-top: 40px;
+}
+
+.item .text p {
+	font-family: LoraItalic;
+	font-size: 18px;
+}
+
+.item .text h4 {
+	font-family: RobotoBoldItalic;
+	color: #ef767a;
+	font-size: 21px;
+}
