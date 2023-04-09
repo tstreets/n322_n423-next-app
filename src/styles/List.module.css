@@ -39,3 +39,7 @@
 	color: #ef767a;
 	font-size: 21px;
 }
+
+.item .text a {
+	text-decoration: none;
+}
