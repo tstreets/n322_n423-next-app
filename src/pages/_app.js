@@ -3,6 +3,7 @@ import Link from 'next/link';
 import NavbarStyles from '../styles/Navbar.module.css';
 import { useRouter } from 'next/router';
 import HeroStyles from '../styles/Hero.module.css';
+import Modal from '../components/Modal';
 
 export default function App({ Component, pageProps }) {
 	const router = useRouter();
@@ -48,7 +49,9 @@ export default function App({ Component, pageProps }) {
 			<footer>
 				<ul className={NavbarStyles.footer}>
 					<li>&copy; The Soap Factory</li>
-					<li>Terms and Conditions</li>
+					<li>
+						<Modal trigger='Terms and Conditions'>Long list of terms and conditions.</Modal>
+					</li>
 				</ul>
 			</footer>
 		</>
