@@ -4,7 +4,7 @@ import HomeStyles from '../styles/Home.module.css';
 export default function HomePage() {
 	return (
 		<>
-			<div className={HomeStyles.content}>
+			<div class={HomeStyles.content}>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac bibendum quam, vel finibus leo. Morbi mattis,
 					odio sed fermentum convallis, dolor lorem porta magna, eu consequat lorem magna a turpis. Vivamus ultrices elit risus,
