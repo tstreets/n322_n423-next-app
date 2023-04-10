@@ -1,5 +1,5 @@
 import React from 'react';
-import { products } from './_productsData';
+import { products } from '../../data/productsData';
 import { useRouter } from 'next/router';
 
 export default function ProductViewPage() {

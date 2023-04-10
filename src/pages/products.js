@@ -1,6 +1,6 @@
 import React from 'react';
 import List, { ListItem } from '../components/List';
-import { products } from './products/_productsData';
+import { products } from '../data/productsData';
 
 export default function ProductsPage() {
 	const soapList = products.map(product => {
